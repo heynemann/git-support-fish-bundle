@@ -1,0 +1,1 @@
+../functions/del_remote_branch.fish

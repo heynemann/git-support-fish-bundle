@@ -1,0 +1,1 @@
+../functions/del_remote_tag.fish

@@ -1,0 +1,1 @@
+../functions/get_last_tag.fish
