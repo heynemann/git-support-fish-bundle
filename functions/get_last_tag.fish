@@ -1,3 +1,5 @@
+#!/usr/local/bin/fish
+
 function get_last_tag --description="Gets the last tag chronologically"
     set -l repo_info (command git rev-parse --git-dir --is-inside-git-dir --is-bare-repository --is-inside-work-tree --short HEAD ^/dev/null)
 	test -n "$repo_info"; or return
